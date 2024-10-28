@@ -4,8 +4,6 @@
 class Complex {
     int real;
     int img;
-    int sum_real;
-    int sum_img;
 public:
     Complex(int real, int img, bool print_message = true);
     Complex();
