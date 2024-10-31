@@ -26,7 +26,7 @@ Complex Complex::operator+ (Complex op2) {            // + 연산자를 재정�
 
 int main()
 {
-    Complex x(2,3), y(-5, 10), sum;                // x, t, sum 객체 생성
+    Complex x(2,3), y(-5, 10), sum;                // x, y, sum 객체 생성
     sum = x + y;                                   // sum은 x와 y를 위에서 재정의한 연산자로 연산한 객체로 저장 -> x + y는 x.operator+ (y)와 같음
     cout << "두 복소수의 합은 ";
     sum.show();                                    // sum에 저장된 실수부와 허수부의 값을 출력
