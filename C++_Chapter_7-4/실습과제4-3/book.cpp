@@ -18,6 +18,6 @@ bool Book::operator! () {
 
 int main(void)
 {
-	Book book("º­·è½ÃÀå", 0, 50);
-	if (!book) cout << "°øÂ¥´Ù" << endl;
+	Book book("벼룩시장", 0, 50);
+	if (!book) cout << "공짜다" << endl;
 }
