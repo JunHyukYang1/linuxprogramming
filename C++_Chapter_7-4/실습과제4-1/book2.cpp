@@ -15,7 +15,7 @@ public:
 };
 
 void Book::show() {
-	cout << name << " " << price << "¿ø " << page << "ÆäÀÌÁö" << endl;
+	cout << name << " " << price << "원 " << page << " 페이지" << endl;
 }
 
 Book& operator+=(Book& op1, int op2) {
@@ -30,7 +30,7 @@ Book& operator-=(Book& op1, int op2) {
 
 int main(void)
 {
-	Book a("Ã»Ãá", 20000, 300), b("¹Ì·¡", 30000, 500);
+	Book a("청춘", 20000, 300), b("미래", 30000, 500);
 	a += 500;
 	b -= 500;
 	a.show();
