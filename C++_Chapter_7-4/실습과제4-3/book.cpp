@@ -18,6 +18,6 @@ bool Book::operator! () {
 
 int main(void)
 {
-	Book book("∫≠∑ËΩ√¿Â", 0, 50);
-	if (!book) cout << "∞¯¬•¥Ÿ" << endl;
+	Book book("¬∫¬≠¬∑√®¬Ω√É√Ä√•", 0, 50);
+	if (!book) cout << "¬∞√∏√Ç¬•¬¥√ô" << endl;
 }
