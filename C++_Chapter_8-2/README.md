@@ -27,4 +27,9 @@ SmartTV 클래스의 생성자가 상속한 WidthTV 클래스의 생성자에 �
 
 
 - 실습과제4
-  
+
+![image](https://github.com/user-attachments/assets/077a83ec-dfaa-4a26-bc16-1363957a4673)
+
+
+![image](https://github.com/user-attachments/assets/5b93ea76-301a-4a68-b284-a6995a0a4ca7)
+
