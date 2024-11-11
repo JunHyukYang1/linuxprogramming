@@ -28,8 +28,14 @@ SmartTV 클래스의 생성자가 상속한 WidthTV 클래스의 생성자에 �
 
 - 실습과제4
 
+해당 코드는 교재의 p.418의 1번을 수행한 코드입니다. 문제에서 제시한 클래스를 선언 및 정의하였고, 추가로 1번의 결과를 얻기 위해 Circle 클래스를 상속하는
+NamedCircle 클래스를 작성해 결과를 출력하였습니다. 아래는 실행 결과입니다.
+
 ![image](https://github.com/user-attachments/assets/077a83ec-dfaa-4a26-bc16-1363957a4673)
 
+
+해당 코드는 교재의 p.419의 3번을 수행한 코드입니다. 문제에서 제시한 Point 클래스를 작성하고, 추가로 3번의 결과를 얻기 위해 Point 클래스를 상속하는 ColorPoint
+클래스를 작성해 결과를 출력하였습니다. 아래는 실행 결과입니다.
 
 ![image](https://github.com/user-attachments/assets/5b93ea76-301a-4a68-b284-a6995a0a4ca7)
 
