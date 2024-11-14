@@ -14,4 +14,4 @@
 아래는 실행 결과입니다.
 
 
-![image](https://github.com/user-attachments/assets/3471be25-284b-48a0-a47f-b25fa7533f3f)
+![image](https://github.com/user-attachments/assets/64bd253d-a5b5-4494-85c7-f7ca4c2c3523)
