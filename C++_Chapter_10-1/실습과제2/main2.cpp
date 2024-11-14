@@ -27,5 +27,5 @@ int main() {
 
     Circle donut(10), pizza(20), y;      // Circle 클래스 객체 donut과 pizza, y 생성
     y = bigger(donut, pizza);            // 객체 간 비교 연산 수행 후 변수에 저장
-    cout << "dount과 pizza 중 큰 반지름은 " << y.getRadius() << endl;      // 결과 출력
+    cout << "donut과 pizza 중 큰 반지름은 " << y.getRadius() << endl;      // 결과 출력
 }
