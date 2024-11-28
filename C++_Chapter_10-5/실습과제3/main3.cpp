@@ -1,14 +1,14 @@
-#include <iostream>
-using namespace std;
+#include <iostream>                  // 표준 입출력 라이브러리를 사용하기 위한 헤더 파일 포함
+using namespace std;                 // 모든 이름의 표준 라이브러리를 사용하기 위한 구문
 
 int main()
 {
-    int a[3][3] = {-5, 2, 35, -20, 5, 100, -75, 5, -25};
-    int max = a[0][0];
-    int b = 0;
-    int c = 0;
+    int a[3][3] = {-5, 2, 35, -20, 5, 100, -75, 5, -25};      // 2차원 배열 선언 및 초기화
+    int max = a[0][0];                                        // 최대값 초기 설정
+    int b = 0;                                                // 최대값이 위치한 행을 구하기 위한 변수 선언
+    int c = 0;                                                // 최대값이 위치한 열을 구하기 위한 변수 선언
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++) {                             // 최대값을 구하여 변수 max에 값을 저장하고, 해당 값의 행과 열을 각각 변수에 저장
         for (int j = 0; j < 3; j++) {
             if(max < a[i][j]) {
                 max = a[i][j];
@@ -18,5 +18,5 @@ int main()
         }
     }
 
-    cout << "최대값은 " << max << endl << "위치는 " << b << "행 " << c << "열" << endl;
+    cout << "최대값은 " << max << endl << "위치는 " << b << "행 " << c << "열" << endl;       // 결과 출력
 }
